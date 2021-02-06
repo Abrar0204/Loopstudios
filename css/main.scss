@@ -194,6 +194,9 @@ body {
 			position: fixed;
 			top: 3.5rem;
 			right: 2rem;
+			&:hover {
+				cursor: pointer;
+			}
 			@media only screen and (min-width: $smallLaptop) {
 				display: none;
 			}
@@ -219,6 +222,9 @@ body {
 	&-hamburger {
 		margin: 2rem 0rem;
 		z-index: 5;
+		&:hover {
+			cursor: pointer;
+		}
 		@media only screen and (min-width: $smallLaptop) {
 			display: none;
 		}
@@ -455,6 +461,7 @@ body {
 
 	&-logo {
 		width: 10rem;
+
 		@media only screen and (min-width: $smallLaptop) {
 			justify-self: flex-start;
 		}

@@ -240,6 +240,10 @@ body {
   right: 2rem;
 }
 
+.nav-list .nav-close:hover {
+  cursor: pointer;
+}
+
 @media only screen and (min-width: 1000px) {
   .nav-list .nav-close {
     display: none;
@@ -270,6 +274,10 @@ body {
 .nav-hamburger {
   margin: 2rem 0rem;
   z-index: 5;
+}
+
+.nav-hamburger:hover {
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 1000px) {
